@@ -1,0 +1,92 @@
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.contact {
+    background: #E55D87;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    padding: 30px;
+}
+
+.top-corner {
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.bottom-corner {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background: #E55D87;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E55D87, #5FC3E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E55D87, #5FC3E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.contact-info {
+    margin-top: 100px;
+}
+
+.contact-info ul {
+    list-style: none;
+}
+
+.contact-info li {
+    margin-bottom: 5px;
+}
+
+.contact-info span {
+    display: inline-block;
+    width: 150px;
+}
+
+.main-wrapper {
+    padding: 0 45px;
+}
+
+.title {
+    color: #373D48;
+    border-bottom: solid 1px #9B9B9B;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.projects {
+    margin-bottom: 20px;
+}
+
+.date {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project-name, .university-name, .skill-type, .award-name {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.avatar {
+    border-radius: 30px;
+}
+
+.logo-transparent {
+    position: absolute;
+    opacity: 0.1;
+    width: 45%;
+    top: 270%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-transparent img {
+    width: 100%;
+    height: 100%;
+}
