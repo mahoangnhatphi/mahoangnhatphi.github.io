@@ -9,9 +9,9 @@ body {
 }
 
 .contact {
-    background: #E55D87;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*background: #E55D87;  !* fallback for old browsers *!*/
+    /*background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  !* Chrome 10-25, Safari 5.1-6 *!*/
+    /*background: linear-gradient(to right, #5FC3E4, #E55D87); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
     color: white;
     padding: 30px;
 }
@@ -74,7 +74,7 @@ body {
 }
 
 .avatar {
-    border-radius: 30px;
+    /*border-radius: 45%;*/
 }
 
 .logo-transparent {
@@ -89,4 +89,26 @@ body {
 .logo-transparent img {
     width: 100%;
     height: 100%;
+}
+
+.header, .bottom {
+    background: #1F1F5C;
+}
+
+.primary-color {
+    background: #8B9098;
+}
+
+.info-column {
+    color: white;
+}
+
+.link-section {
+    color: white;
+}
+
+.link-section:hover {
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 1.2em;
 }
