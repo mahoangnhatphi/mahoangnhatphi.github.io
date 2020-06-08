@@ -92,19 +92,19 @@ body {
 }
 
 .header, .bottom {
-    background: #1F1F5C;
+    background: #FD9827;
 }
 
 .primary-color {
-    background: #8B9098;
+    background: #F2F2F2;
 }
 
 .info-column {
-    color: white;
+    color: black;
 }
 
 .link-section {
-    color: white;
+    color: black;
 }
 
 .link-section:hover {
